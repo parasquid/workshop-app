@@ -62,6 +62,7 @@ end
 test_branch "4-persistence-completed", expect_success: true
 test_branch "5-routes-views", expect_success: false
 test_branch "5-routes-views-completed", expect_success: true
+test_branch "6-more", expect_success: true
 
 system "git checkout -q - && git branch -D integration-tests", out: File::NULL
 
